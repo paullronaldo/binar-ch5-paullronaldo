@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #9C835F;
+}
+
+header {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    background-color: transparent; 
+}
+
+header .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: #F9B23D;
+}
+
+body .mainactivity {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+body .mainactivity > .playersides {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 110px;
+    cursor: pointer;
+}
+
+body .mainactivity > .infosides {
+    
+    margin-top: 300px;
+    display: inline-block;
+    vertical-align: top;
+    width: 271.11px;
+    height: 166.93px;
+    left: 561px;
+    top: 489.89px;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+}
+
+body .mainactivity > .infosides > .gameinfo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+body .mainactivity > .infosides > .gameinfo > .intro {
+    position: relative;
+    top: 55px;
+    background-color: transparent;
+    color: red;
+    font-size: 100px;
+    transform: rotate(28.87deg);
+}
+
+body .mainactivity > .infosides > .gameinfo > .presult {
+    visibility: hidden;
+    position: relative;
+    top: 55px;
+    color: white;
+    background: #4C9654;
+}
+
+body .mainactivity > .infosides > .gameinfo > .dresult {
+    visibility: hidden;
+    position: relative;
+    top: 55px;
+    color: white;
+    background: #4C9654;
+}
+
+body .mainactivity > .computersides {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 110px;
+    cursor: not-allowed;
+}
+
+body .mainactivity p {
+    position: relative;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+body .mainactivity .choices > .choice  {
+    margin-top: 5px;
+    width: 223px;
+    height: 204px;
+    left: 334px;
+    top: 671px;
+    border-radius: 30px;
+}
+
+body .mainactivity .choices > .choice :hover {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    background: #c4c4c4;
+}
+
+body .mainactivity .choices .choice > .batu {
+    margin-top: 55px;
+}
+
+body .mainactivity .choices .choice > .kertas {
+    margin-top: 25px;
+}
+
+
+
+body .mainactivity .choices .choice > .gunting {
+    margin-top: 25px;
+}
+
+body > .refresh {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}

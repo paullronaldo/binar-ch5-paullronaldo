@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Rock Paper Scissors Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="./assets/logo 1.png" alt="rock-paper-scissors-logo"> 
+            <h1>ROCK PAPER SCISSORS</h1>
+        </header>
+        <div class="mainactivity">
+            <div class="playersides">
+                <p>PLAYER 1</p>
+                <div class="choices">
+                    <div class="choice" id="rp" data-selection="r">
+                        <img class="batu" src="./assets/batu 1.png" alt="batu">
+                    </div>
+                    <div class="choice" id="pp" data-selection="p">
+                        <img class="kertas" src="./assets/kertas 1.png" alt="kertas">
+                    </div>
+                    <div class="choice" id="sp" data-selection="s">
+                        <img class="gunting" src="./assets/gunting 1.png" alt="gunting">
+                    </div>
+                </div>
+            </div>
+            <div class="infosides">
+                <div class="gameinfo">
+                    <div class="intro" id="vs">VS</div>
+                    <div class="presult" id="pwin">PLAYER 1 WIN</div>
+                    <div class="presult" id="cwin">COM WIN</div>
+                    <div class="dresult" id="draw">DRAW</div>
+                </div>
+            </div>
+            <div class="computersides">
+                <p>COM</p>
+                <div class="choices">
+                    <div class="choice" id="r" data-selection="r">
+                        <img class="batu" src="./assets/batu 1.png" alt="batu">
+                    </div>
+                    <div class="choice" id="p" data-selection="p">
+                        <img class="kertas" src="./assets/kertas 1.png" alt="kertas">
+                    </div>
+                    <div class="choice" id="s" data-selection="s">
+                        <img class="gunting" src="./assets/gunting 1.png" alt="gunting">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="refresh" class="refresh" onClick="window.location.reload()">
+            <img src="./assets/refresh 2.png" alt="refresh-button">
+        </div>
+    </body>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>

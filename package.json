@@ -1,0 +1,26 @@
+{
+  "name": "binar-ch5-paullronaldo",
+  "version": "1.0.0",
+  "description": "repo challenge chapter 5",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/paullronaldo/binar-ch5-paullronaldo.git"
+  },
+  "keywords": [
+    "chapter5"
+  ],
+  "author": "Paull Ronaldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/paullronaldo/binar-ch5-paullronaldo/issues"
+  },
+  "homepage": "https://gitlab.com/paullronaldo/binar-ch5-paullronaldo#readme"
+}
