@@ -1,0 +1,326 @@
+<!--doctype html-->
+<html lang="en">
+    <head>
+        <title>Landing Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Main Section -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-logo"><a href="#" class="logo-brand">LOGO</a></div>
+                <div class="nav-menu collapse">
+                    <!-- Menu-bar Section -->
+                    <div class="main--menu">
+                        <ul class="navbar--nav">
+                            <li><a href="#" class="nav-link">HOME</a></li>
+                            <li><a href="#" class="nav-link">WORK</a></li>
+                            <li><a href="#" class="nav-link">CONTACT</a></li>
+                            <li><a href="#" class="nav-link">ABOUT ME</a></li>
+                        </ul>
+                    </div>
+                    <!-- Login-Bar Section -->
+                    <div class="signin-menu">
+                        <ul class="navbar--nav">
+                            <li><a href="#" class="nav-link">SIGN UP</a></li>
+                            <li><a href="#" class="nav-link">LOGIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="container">
+            <div class="bg-section main">
+                <div class="container">
+                    <div class="row main--desc">
+                        <!-- main-content section -->
+                        <div class="main-title">
+                            <h1>Play Traditional Game</h1>
+                            <h5>Experience new traditional game play</h5>
+                            <button class="btn-play">Play Now</button>
+                        </div>
+                        <!-- Bottom Scroll -->
+                        <div class="main-button">
+                            <p>The story</p>
+                            <i class="fas fa-chevron-down" style="text-align: center;">
+                                <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.5786 1.83362H1.32422L11.338 10.0027L21.5786 1.83362Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-section gallery">
+                <div class="container-fluid">
+                    <div class="row gallery--info">
+                        <div class="gallery-title">
+                            <h3>What's so special?</h3>
+                            <h2>The Games</h2>
+                        </div>
+                        <div class="gallery-slideshow">
+                            <!-- wrapper gambar slide -->
+                            <div class="mySlides fade">
+                              <div class="numbertext"></div>
+                              <img src="./assets/rockpaperstrategy-1600.jpg" style="width:100%">
+                              <div class="text"></div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext"></div>
+                              <img src="./assets/rockpaperstrategy-1600.jpg" style="width:100%">
+                              <div class="text"></div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext"></div>
+                              <img src="./assets/rockpaperstrategy-1600.jpg" style="width:100%">
+                              <div class="text"></div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext"></div>
+                              <img src="./assets/rockpaperstrategy-1600.jpg" style="width:100%">
+                              <div class="text"></div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext"></div>
+                              <img src="./assets/rockpaperstrategy-1600.jpg" style="width:100%">
+                              <div class="text"></div>
+                            </div>
+                            
+                            <div class="slideshow-pointer">
+                              <span class="dot" onclick="currentSlide(1)"></span> 
+                              <span class="dot" onclick="currentSlide(2)"></span> 
+                              <span class="dot" onclick="currentSlide(3)"></span> 
+                              <span class="dot" onclick="currentSlide(4)"></span>
+                              <span class="dot" onclick="currentSlide(5)"></span>
+                            </div>
+                            
+                            <!-- tanda panah ke kiri (prev slide) dan kanan (next slide) -->
+                            <svg width="20" height="38" class="prev-item" onclick="plusSlides(-1)" viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 1.70007L18 35.7001L2 18.8904L18 1.70007Z" stroke="white" stroke-width="3.36454" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <svg width="18" height="39" class="next-item" onclick="plusSlides(1)" viewBox="0 0 18 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.82153 2.65635L1.82153 36.7297L15.5642 19.8838L1.82153 2.65635Z" stroke="white" stroke-width="3.36454" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>  
+                        </div>
+                        <script>
+                            var slideIndex = 1;
+                            showSlides(slideIndex);
+                            
+                            function plusSlides(n) {
+                              showSlides(slideIndex += n);
+                            }
+                            
+                            function currentSlide(n) {
+                              showSlides(slideIndex = n);
+                            }
+                            
+                            function showSlides(n) {
+                              var i;
+                              var slides = document.getElementsByClassName("mySlides");
+                              var dots = document.getElementsByClassName("dot");
+                              if (n > slides.length) {slideIndex = 1}    
+                              if (n < 1) {slideIndex = slides.length}
+                              for (i = 0; i < slides.length; i++) {
+                                  slides[i].style.display = "none";  
+                              }
+                              for (i = 0; i < dots.length; i++) {
+                                  dots[i].className = dots[i].className.replace(" active", "");
+                              }
+                              slides[slideIndex-1].style.display = "block";  
+                              dots[slideIndex-1].className += " active";
+                            }
+                            </script>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-section features">
+                <div class="container">
+                    <div class="row feature--desc">
+                        <div class="feature-title">
+                            <h3>What's so special?</h4>
+                            <h2>Features</h2>
+                        </div>
+                        <!-- Feature-List -->
+                        <table class="feature-list">
+                            <tr>
+                                <td class="dot"></td>
+                                <td class="list-title">
+                                    <h4>Traditional Games</h4>
+                                    <p>If you miss your childhood, we provide many traditional games here</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="dot"></td>
+                                <td class="list-title">
+                                    <h4 style="padding-bottom: 10%;">Game Suit</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="dot"></td>
+                                <td class="list-title">
+                                    <h4 style="padding-bottom: 10%;">TBD</h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-section requirements">
+                <div class="container">
+                    <div class="row requirements--info">
+                        <div class="req-title">
+                            <p class="center-absolute">Can My Computer Run This Game?</p>
+                            <h1>System <br> requirements</h1>
+                        </div>
+                        <table class="req-table">
+                            <tr>
+                                <td class="list-title">
+                                    <h4 class="mb-10">OS:</h4>
+                                    <p>Windows 7 64-bit only (No OSX support at this time)</p>
+                                </td>
+                                <td class="list-title">
+                                    <h4 class="mb-10">PROCESSOR:</h4>
+                                    <p>Intel Core 2 Duo @2.4 GHZ or AMD Athlon X2 @2.8 GHZ</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="list-title">
+                                    <h3 class="mb-10">MEMORY:</h3>
+                                    <p>4 GB RAM</p>
+                                </td>
+                                <td class="list-title">
+                                    <h3 class="mb-10">STORAGE:</h3>
+                                    <p>8 GB available space</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="list-title">
+                                    <h4 class="mb-10">GRAPHICS:</h4>
+                                    <p>NVDIA GeForce GTX 660 2GB or</p>
+                                    <p>AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-section quotes">
+                <div class="layer">
+                    <div class="container">
+                        <div class="row quotes--info">
+                            <div class="top-score-1">
+                                <div class="top-score-title">
+                                    <h1>TOP SCORES</h1>
+                                    <p>This top score from various games provided <br> on this platform</p>
+                                    <button class="btn-play">See more</button>
+                                </div>
+                            </div>
+                            <div class="top-score-2">
+                                <div class="top-score-quotes">
+                                    <div class="row">
+                                        <div class="width--80">
+                                            <div class="card">
+                                                <div class="card-heading">
+                                                    <div class="col-profile-picture">
+                                                        <img src="./assets/evan.jpg" alt="Evan Lahti">
+                                                    </div>
+                                                    <div class="col-profile-username">
+                                                        <h3>Evan Lahti</h3>
+                                                        <h4>PC Gamer</h4>
+                                                    </div>
+                                                    <div class="col-profile-twitter">
+                                                        <i class="fab fa-twitter"></i>
+                                                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.3" d="M18.3981 2.41449C17.7231 2.70013 17.0072 2.88765 16.2741 2.97084C17.0365 2.53297 17.623 1.84099 17.899 1.01526C17.1731 1.42694 16.3789 1.71699 15.5508 1.87286C14.8519 1.15947 13.8744 0.755389 12.8519 0.757085C10.8105 0.757085 9.15361 2.33909 9.15361 4.29061C9.15361 4.5679 9.18627 4.83816 9.25021 5.09623C6.17639 4.94862 3.45216 3.54236 1.62787 1.404C1.30934 1.92529 1.12764 2.53297 1.12764 3.18076C1.12764 4.40623 1.78024 5.48805 2.77231 6.12188C2.18494 6.10468 1.61046 5.95309 1.09706 5.67983V5.7249C1.09706 7.43659 2.37189 8.86495 4.06278 9.19027C3.5182 9.3312 2.94722 9.35187 2.39305 9.25072C2.86384 10.6549 4.22998 11.6764 5.8475 11.7061C4.5821 12.6524 2.98781 13.2184 1.25483 13.2184C0.960153 13.2181 0.66574 13.2015 0.373047 13.1689C2.00943 14.1713 3.95365 14.7571 6.04185 14.7571C12.8438 14.7571 16.5627 9.37118 16.5627 4.70056C16.5627 4.54779 16.5627 4.39502 16.5513 4.24335C17.2749 3.74295 17.8998 3.12372 18.3969 2.41449H18.3981Z" fill="white"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="card-desc">
+                                                    <div class="quotes-caption">
+                                                        <p>"One of my gaming highlights of the year."</p>
+                                                    </div>
+                                                    <div class="quotes-date">
+                                                        <h6>October 18, 2018</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row left">
+                                        <div class="width--80">
+                                            <div class="card">
+                                                <div class="card-heading">
+                                                    <div class="col-profile-picture">
+                                                        <img src="./assets/jada.jpg" alt="Jada Griffin">
+                                                    </div>
+                                                    <div class="col-profile-username">
+                                                        <h3>Jada Griffin</h3>
+                                                        <h4>Nerdreactor</h4>
+                                                    </div>
+                                                    <div class="col-profile-twitter">
+                                                        <i class="fab fa-twitter"></i>
+                                                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.3" d="M18.3981 2.41449C17.7231 2.70013 17.0072 2.88765 16.2741 2.97084C17.0365 2.53297 17.623 1.84099 17.899 1.01526C17.1731 1.42694 16.3789 1.71699 15.5508 1.87286C14.8519 1.15947 13.8744 0.755389 12.8519 0.757085C10.8105 0.757085 9.15361 2.33909 9.15361 4.29061C9.15361 4.5679 9.18627 4.83816 9.25021 5.09623C6.17639 4.94862 3.45216 3.54236 1.62787 1.404C1.30934 1.92529 1.12764 2.53297 1.12764 3.18076C1.12764 4.40623 1.78024 5.48805 2.77231 6.12188C2.18494 6.10468 1.61046 5.95309 1.09706 5.67983V5.7249C1.09706 7.43659 2.37189 8.86495 4.06278 9.19027C3.5182 9.3312 2.94722 9.35187 2.39305 9.25072C2.86384 10.6549 4.22998 11.6764 5.8475 11.7061C4.5821 12.6524 2.98781 13.2184 1.25483 13.2184C0.960153 13.2181 0.66574 13.2015 0.373047 13.1689C2.00943 14.1713 3.95365 14.7571 6.04185 14.7571C12.8438 14.7571 16.5627 9.37118 16.5627 4.70056C16.5627 4.54779 16.5627 4.39502 16.5513 4.24335C17.2749 3.74295 17.8998 3.12372 18.3969 2.41449H18.3981Z" fill="white"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="card-desc">
+                                                    <div class="quotes-caption">
+                                                        <p>"The next big thing in the world of streaming and survival games."</p>
+                                                    </div>
+                                                    <div class="quotes-date">
+                                                        <h6>December 21, 2018</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="width--80">
+                                            <div class="card">
+                                                <div class="card-heading">
+                                                    <div class="col-profile-picture">
+                                                        <img src="./assets/aaron.jpg" alt="Aaron Williams">
+                                                    </div>
+                                                    <div class="col-profile-username">
+                                                        <h3>Aaron Williams</h3>
+                                                        <h4>Uproxx</h4>
+                                                    </div>
+                                                    <div class="col-profile-twitter">
+                                                        <i class="fab fa-twitter"></i>
+                                                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.3" d="M18.3981 2.41449C17.7231 2.70013 17.0072 2.88765 16.2741 2.97084C17.0365 2.53297 17.623 1.84099 17.899 1.01526C17.1731 1.42694 16.3789 1.71699 15.5508 1.87286C14.8519 1.15947 13.8744 0.755389 12.8519 0.757085C10.8105 0.757085 9.15361 2.33909 9.15361 4.29061C9.15361 4.5679 9.18627 4.83816 9.25021 5.09623C6.17639 4.94862 3.45216 3.54236 1.62787 1.404C1.30934 1.92529 1.12764 2.53297 1.12764 3.18076C1.12764 4.40623 1.78024 5.48805 2.77231 6.12188C2.18494 6.10468 1.61046 5.95309 1.09706 5.67983V5.7249C1.09706 7.43659 2.37189 8.86495 4.06278 9.19027C3.5182 9.3312 2.94722 9.35187 2.39305 9.25072C2.86384 10.6549 4.22998 11.6764 5.8475 11.7061C4.5821 12.6524 2.98781 13.2184 1.25483 13.2184C0.960153 13.2181 0.66574 13.2015 0.373047 13.1689C2.00943 14.1713 3.95365 14.7571 6.04185 14.7571C12.8438 14.7571 16.5627 9.37118 16.5627 4.70056C16.5627 4.54779 16.5627 4.39502 16.5513 4.24335C17.2749 3.74295 17.8998 3.12372 18.3969 2.41449H18.3981Z" fill="white"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="card-desc">
+                                                    <div class="quotes-caption">
+                                                        <p>"Snoop Dogg Playing The Wildly Entertaining 'SOS' Is Ridicolous."</p>
+                                                    </div>
+                                                    <div class="quotes-date">
+                                                        <h6>December 24, 2018</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
